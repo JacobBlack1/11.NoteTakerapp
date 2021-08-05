@@ -4,12 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JacobBlack1/11.NoteTakerapp.git"
   },
+  "keywords": [
+    "example",
+    "heroku" 
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -18,5 +23,8 @@
   "homepage": "https://github.com/JacobBlack1/11.NoteTakerapp#readme",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "engines": {
+    "node": "14.x"
   }
 }
